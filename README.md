@@ -30,6 +30,8 @@ curl -X DELETE http://localhost:8090/delete/user/1
 
 
 
+
+
 User Management service save user data in mysql 8.3.0 server. 
 After doing each operation , its information and timestamp is put on Kafka (3.7.0) queue and that message is consumed by Journal Management application.
 
